@@ -74,7 +74,7 @@ void
 init_image(Food* food)
 {
     
-    food->image = LoadImage("/Users/lorrainebozagmail.com/Documents/Source_Codes/RayLibrary/Snake_raylib/asd.png");
+    food->image = LoadImage("../images/apple.png");
     ImageResize(&food->image, 30, 30);
     food->texture = LoadTextureFromImage(food->image);
     UnloadImage(food->image);
