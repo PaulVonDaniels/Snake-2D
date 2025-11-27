@@ -6,7 +6,7 @@
 #include <stddef.h>
 #include <stdbool.h>
 
-#include "deque.h"
+#include "deque.hxx"
 int cellSize = 30;
 int cellCount = 25;
 
